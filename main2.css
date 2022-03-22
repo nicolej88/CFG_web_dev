@@ -1,0 +1,308 @@
+
+
+body{
+
+  margin: 0;
+  background-color: #0f283c;
+  color: white;
+}
+header {
+
+  display: flex;
+  height: 36rem;
+  width:100%;
+  justify-content: center;
+  
+}
+
+.header-img{
+position: absolute;
+display: flex;
+justify-content: center;
+
+
+
+}
+
+.hotel-img {
+  max-width: 75%;
+  object-fit: cover;border-style: solid;
+  color: white;
+  max-height: 43rem;
+  
+ }
+
+ .navbar {
+  height: fit-content;
+  width:100%;
+  margin-left:10px;
+    
+
+}
+
+.dropbtn {
+  background-color: #0f283c;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: solid 2px;
+  border-radius: 15px;
+  margin:10px;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(9, 24, 36);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 1.5rem;
+  
+}
+
+
+li {
+  margin-right: 5%;
+}
+
+
+.homepage-section{
+
+  height:fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.facilities-head{
+  text-align: center;
+
+}
+
+.facilities-info{
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  
+
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-text {
+  padding: 15px;
+  text-align: center;
+}
+
+.facilities-box {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 25%;
+}
+
+.facilities-box:hover {
+  border: 1px solid #777;
+}
+
+
+.main-div{
+
+  display: flex;
+  justify-content: center;
+}
+
+.accommodation{
+  text-align: center;
+}
+
+
+
+
+
+.carousel{
+  padding: 0;
+  margin: 0;
+  width:70%;
+  height:32rem;
+  margin:auto;
+  overflow:hidden;
+  position: relative;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 20px;
+
+
+}
+
+
+
+.slide{
+
+  display:flex;
+  width:100%;
+  
+  
+  
+  
+}
+
+.slide >img{
+  width:100%;
+  margin: 0px;
+  height: 34rem;
+  
+
+  
+}
+
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  z-index:10;
+  left:5px;
+  font-size: 25px;
+  color: #777;
+  opacity: 0.2;
+}
+
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  z-index:10;
+  right:5px;
+  font-size: 25px;
+  color: #777;
+  opacity: 0.2;
+}
+
+.reviews{
+
+  display:flex;
+  justify-content:center;
+}
+
+.reviews-head{
+  text-align: center;
+  padding-top: 5rem;
+}
+.review{
+
+  width:25%;
+  height:150px;
+  border-style: solid;
+  color: white;
+  margin: 20px;
+  padding: 4px;
+  text-align: center;
+}
+
+.booking-section{
+
+  padding-top: 5rem;
+  padding-bottom:5rem;
+}
+
+.booking-section > button {
+  border: solid;
+  color: white;
+  border-width: 2px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-image: linear-gradient(180deg, rgb(15, 40, 60) 10%, rgb(9, 24, 36) 90%);
+ 
+
+ 
+}
+
+button:hover {
+  color: rgb(151, 150, 150);
+}
+
+
+footer{
+  
+  background-color:rgb(9, 24, 36);
+  height:6rem;
+  align-items: center;
+  
+}
+
+.footer-copy{
+
+  display: flex;
+  justify-content: center;
+}
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  size: 25px;
+
+}
+
+.footer-icons > i{
+
+  margin:5px;
+  font-size: 25px;
+}
+
+
+
+.footer-icons > i:hover {
+  color: #777;
+  font-size: 27px;
+}
+
+
+
+
+

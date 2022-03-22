@@ -1,0 +1,151 @@
+body{
+
+    margin: 0;
+    background-color: #0f283c;
+    color: white;
+  }
+
+
+  header{
+
+    display:flex;
+    background-color:rgb(9, 24, 36);
+    
+  }
+
+  .header-title{
+      margin: auto;
+      padding-right: 79px;
+
+  }
+  .navbar {
+    height: fit-content;
+    width:100%;
+    margin-left:10px;
+    display:flex;
+  
+  }
+  
+  .dropbtn {
+    background-color: #0f283c;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: solid 2px;
+    border-radius: 15px;
+    margin:10px;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: rgb(9, 24, 36);
+  }
+
+
+  .booking-option{
+
+    display:flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    
+    margin-top: 15px;
+}
+
+
+
+  .booking-info{
+
+    display: flex;
+    align-items: center;
+    width:70%;
+
+  }
+  
+  .booking-image{
+    width:40%;
+    
+  }
+
+  .book-img{
+
+    width:-webkit-fill-available;
+    margin-right: 10px;
+  }
+
+  .book-button{
+
+    height:fit-content;
+    align-self: center;
+  }
+
+  .book-text{
+      width:60%;
+      height: -webkit-fill-available;
+  }
+  
+  footer{
+  
+    background-color:rgb(9, 24, 36);
+    height:6rem;
+    align-items: center;
+    
+  }
+  
+  .footer-copy{
+  
+    display: flex;
+    justify-content: center;
+  }
+  .footer-icons{
+    display: flex;
+    justify-content: center;
+    size: 25px;
+  
+  }
+  
+  .footer-icons > i{
+  
+    margin:5px;
+    font-size: 25px;
+  }
+  
+  
+  
+  .footer-icons > i:hover {
+    color: #777;
+    font-size: 27px;
+  }

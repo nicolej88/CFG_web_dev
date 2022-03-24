@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript_imb.js"></script>
+    <title>Booking Form</title>
+</head>
+
+<body>
+    <div class="maincontainer" id="maincontainer">
+        <header class="header" id="header">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Accomodation</a></li>
+                    <li><a href="/Facilitiesimb.html">Facilities</a></li>
+                </ul>
+            </nav>
+            <div class="hotelname">
+                <h1>The Highland Kelpie</h1>
+            </div>
+
+
+        </header>
+        <main>
+            <div class="bookingdata" id="bookingdata">
+                <form class="bdata" id="bdata">
+                    <div class="form-container">
+                        <label for="arrival" id="arrival" class="datearrival">Arrival</label>
+                        <input type="date" name="arrival" required>
+                        <label for="departure" id="departure" class="datedeparture">Departure</label>
+                        <input type="date" name="departure" required>
+                        <label for="adults" id="adults" class="manyadults">Adults</label>
+                        <input type="number" name="adults" min="1" max="3" required>
+                        <label for="children" id="children" class="manychildren">Children</label>
+                        <input type="number" name="children" min="0" max="3">
+                        <label for="infant" id="infant" class="manyinfant">Infant</label>
+                        <input type="number" name="infant">
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="roomswrapper" id="roomswrapper">
+                <div id="wrapper1" class="wrapper1">
+                    <span>Double Room</span>
+                    <div class="doubleroom">
+                        <img src="./Media/double-room.png" alt="Double Room">
+
+                    </div>
+                    <a href="./GuestDetailsimb.html"><button id="doubleroom" class="booknow">Book Now</button></a>
+
+                </div>
+                <div id="wrapper2" class="wrapper2">
+                    <span>Family Room</span>
+                    <div class="familyroom">
+                        <img src="./Media/family-room.png" alt="Family Room">
+
+                    </div>
+                    <a href="./GuestDetailsimb.html"><button id="familyroom" class="booknow">Book Now</button></a>
+
+                </div>
+                <div id="wrapper3" class="wrapper3">
+                    <span>Twin Room</span>
+                    <div class="twinroom">
+                        <img src="./Media/twin-room.png" alt="Twin Room">
+
+                    </div>
+                    <a href="./GuestDetailsimb.html"><button id="twinroom" class="booknow">Book Now</button></a>
+
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>

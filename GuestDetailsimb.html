@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./javascript_imb.js"></script>
+    <title>GuestDetails</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="hotelname">
+                <h1>The Highland Kelpie</h1>
+                <span>- Please provide your details -</span>
+            </div>
+        </header>
+        <div class="detailsform">
+            <form class="detailsdata" id="details">
+                <div class="formstyle">
+                    <label for="fname" id="fname" class="name">First Name</label>
+                    <input type="text" name="fname" placeholder="Please type your first name" required>
+                    <label for="surname" id="guestsurname" class="surname">Surname</label>
+                    <input type="text" name="surname" placeholder="Please type your surname" required>
+                </div>
+                <div class="formstyle">
+                    <label for="telf" id="phone" class="telf">Phone number</label>
+                    <input type="tel" name="telf" required>
+                    <label for="email" id="guestemail" class="email">Email</label>
+                    <input type="email" name="email" required placeholder="Please enter your email">
+                </div>
+                <div class="formstyle">
+                    <label for="diet" id="dietrestriction" class="diet">Please inform of any dietary
+                        restrictions</label>
+                    <textarea id="diet" name="diet" rows="12" cols="35" class="text"
+                        placeholder="Please type here any dietary restrictions/allergies"></textarea>
+                </div>
+
+                <div class="formstyle"> <button type="submit" id="submit" class="submit-button">Book Now</button> </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
